@@ -1,5 +1,6 @@
 # HPC 2020/21 Assignement-01
-This repository contains the work produced for the first assignement of  FHPC course 2021-2022 @ DSSC, Units. The main topic of the homework was to benchmark several application and perform some basic analysis over the performance of the mainframe Orfeo at Area Science Park in Trieste.
+This repository contains the work produced for the first assignement of  FHPC course 2021-2022 @ DSSC, Units. The main topic of the homework was to benchmark several application and perform some basic analysis over the performance of the mainframe Orfeo at Area Science Park in Trieste. 
+More details and the analysis of the results of the benchmark can be found in the /report section.
 ## Ring
 This benchmark consisted in a message-passaging between processes disposed in a ring topology
 ## PingPong
@@ -11,5 +12,5 @@ In this case the task was to write a program that generates randomly two matrix 
 In order to simplify the calculations I've assumed that the dimension of the matrix in each dimension was a multiple of number of process at disposal, a possible way to overcome this limitation could be adding a padding to each dimension in order to require a suitable dimension.
 ### Compile and Run
 The /matrix folder contains a makefile, as regards running the code each program takes as input the number of process employed for each dimension.
-More details and the analysis of the results of the benchmark can be found in the /report section.
+
 
